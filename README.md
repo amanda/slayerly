@@ -16,3 +16,7 @@ finally, run:
 ```python slayerly.py```
 
 and head to localhost:5000 in your favorite browser to get your new link \m/
+
+## todo
+- make links go to localhost:5000/slayerlyric instead of localhost:5000/id
+- check for dupe urls
