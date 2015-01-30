@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<div id="link" class="center">
+	{% if link %}
+	<p>new link: <a href="{{ url_for('redirect_to', link_id = link[0].id) }}">{{ link[0].shortened }}</a></p>
+	{% endif %}
+</div>
+{% endblock%}

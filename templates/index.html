@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="center">
+		<h1>SLAYER.LY!!!!</h1>
+		<p>the most metal link shortener on the web!</p>
+		<form action="/shorten" method="post">
+			<input name="url" type="text" placeholder="paste a link to shorten">
+			<button type="submit">\m/</button>
+		</form>
+		<img src="{{ url_for('static', filename='metal.gif') }}"></img>
+		<p class="disclaimer">i don't actually know much about slayer, i just thought this would be more fun than a random shortlink generator.</p>
+	</div>
+{% endblock %}
