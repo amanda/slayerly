@@ -1,5 +1,5 @@
 # slayerly
-the most metal url shortener on the web
+the most metal url shortener not on the web.
 
 ## usage:
 first:
